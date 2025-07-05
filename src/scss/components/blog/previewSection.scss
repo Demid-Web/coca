@@ -1,0 +1,27 @@
+.previewSection {
+  margin-bottom: 80px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: -3px;
+    color: var(--neutral-color-100);
+    margin-bottom: 40px;
+    margin-top: 80px;
+    @include small-tablet {
+      font-size: 8vw;
+    }
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    color: var(--neutral-color-100);
+    @include small-tablet {
+      font-size: 3.5vw;
+      line-height: 4.5vw;
+    }
+  }
+}

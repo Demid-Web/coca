@@ -1,0 +1,10 @@
+@import './mixins';
+@import './base';
+@import './globals';
+
+@import './components/header';
+@import './components/about/firstSection.scss';
+@import './components/about/insert.scss';
+@import './components/about/slider.scss';
+@import './components/about/staff.scss';
+@import './components/footer';
